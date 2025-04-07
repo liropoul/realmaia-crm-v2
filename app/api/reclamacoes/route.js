@@ -1,7 +1,7 @@
-import { google } from "googleapis";
-import { NextResponse } from "next/server";
-
 export async function POST(req) {
+  const { google } = await import('googleapis'); // <-- muda isso aqui!
+  const { NextResponse } = await import('next/server');
+
   try {
     const body = await req.json();
     const { nome, email, assunto, mensagem } = body;
