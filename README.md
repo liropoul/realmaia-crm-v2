@@ -1,1 +1,0 @@
-# Real Maia CRM v2 - Projeto pronto com googleapis incluído
